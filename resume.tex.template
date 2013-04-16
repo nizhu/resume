@@ -27,12 +27,13 @@
     \cventry{2013--Present}{Founding Developer}{As yet named startup}{Sydney}{}{
       \begin{itemize}
         \item Architected and currently implementing multi-platform application using PhoneGap, KnockoutJS and CouchDB
+        \item Setup and maintain the CentOS server which hosts the website, the application prototype and the Postfix mail server
       \end{itemize}}
     \cventry{2011--Present}{Graduate Software Engineer}{Sirca Ltd}{Sydney}{}{
       \begin{itemize}
-        \item Developed an automated integration testing framework, reducing week-long manual testing procedures into nightly scheduled tasks
+        \item Perform full stack web development, writing production code in more than 10 different languages
+        \item Developed an automated integration testing framework, reducing week-long manual testing procedures into automated continuous integration tasks
         \item Prepared automated deployment scripts for the company's first product to migrate to Amazon Web Services
-        \item Proposed and implemented customisations to our interactive API documentation based on the open source Swagger project
       \end{itemize}}
     \cventry{2008--2011}{Office Administrator}{Caunesa Pty Ltd}{Rosebery}{}{
       \begin{itemize}
