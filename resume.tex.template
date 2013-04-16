@@ -1,0 +1,62 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% Resume based on examples from http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/
+
+\documentclass[12pt,a4paper,sans]{moderncv}  
+\moderncvstyle{casual}      
+\moderncvcolor{blue}       
+
+\usepackage[scale=0.75]{geometry}
+
+\firstname{%fname}
+\familyname{%lname}
+\address{%street}{%city, %state %postcode}{%country}
+\mobile{%phone}
+\email{%email}
+
+\begin{document}
+  \fancyfoot{}
+  \makecvtitle
+
+  \section{Experience}
+    \cventry{2013--Present}{Founding Developer}{As yet named startup}{Sydney}{}{
+      \begin{itemize}
+        \item Architected and currently implementing multi-platform application using PhoneGap, KnockoutJS and CouchDB
+      \end{itemize}}
+    \cventry{2011--Present}{Graduate Software Engineer}{Sirca Ltd}{Sydney}{}{
+      \begin{itemize}
+        \item Developed an automated integration testing framework, reducing week-long manual testing procedures into nightly scheduled tasks
+        \item Prepared automated deployment scripts for the company's first product to migrate to Amazon Web Services
+        \item Proposed and implemented customisations to our interactive API documentation based on the open source Swagger project
+      \end{itemize}}
+    \cventry{2008--2011}{Office Administrator}{Caunesa Pty Ltd}{Rosebery}{}{
+      \begin{itemize}
+        \item Planned and implemented office an automated backup scheme which continues to save each office staff up to 15 minutes per day
+        \item Negotiated discounts with suppliers, resulting in a reduction of the overall cost of business by almost 2\%
+      \end{itemize}}
+    \cventry{2008--2010}{Food Service Host}{QSR Pty Ltd (KFC)}{Bexley}{}{
+    \begin{itemize}
+      \item Responsible for the training of new team members
+    \end{itemize}}
+
+  \section{Education}
+    \cventry{2008--2012}{BComm/BS}{University of New South Wales}{Sydney}{}{
+      \begin{itemize}
+        \item Major in Actuarial Studies and Computer Science
+        \item Credit average of 71.6
+        \item Student exchange with the \textit{University of British Columbia}, Vancouver
+      \end{itemize}}
+
+  \section{Awards}
+    \cvlistitem{ASI Computing Award 2007}
+    \cvlistitem{UNSW High School Computing Award 2006}
+
+  \section{Relevant Skills}
+    \cvlistitem{Ruby (on Rails), Python, Shell, Java EE}
+    \cvlistitem{HTML, CSS, Javascript, SQL, NoSQL, UnixUtils}
+\end{document}
