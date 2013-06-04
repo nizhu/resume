@@ -15,30 +15,28 @@
 
 \firstname{%fname}
 \familyname{%lname}
-\address{%street}{%city, %state %postcode}{%country}
+\address{%city}{%country}
 \mobile{%phone}
 \email{%email}
+% SOOO MANY CATSSSSSSSSS http://octodex.github.com/
+\extrainfo{\centering\includegraphics[height=9pt]{GitHub-Mark.eps}~\httplink{%github}}
 
 \begin{document}
   \fancyfoot{}
   \makecvtitle
 
   \section{Experience}
-    \cventry{2013--Present}{Founding Developer}{As yet named startup}{Sydney}{}{
-      \begin{itemize}
-        \item Architected and currently implementing multi-platform application using PhoneGap, KnockoutJS and CouchDB
-        \item Setup and maintain the CentOS server which hosts the website, the application prototype and the Postfix mail server
-      \end{itemize}}
     \cventry{2011--Present}{Graduate Software Engineer}{Sirca Ltd}{Sydney}{}{
       \begin{itemize}
         \item Perform full stack web development, writing production code in more than 10 different languages
-        \item Developed an automated integration testing framework, reducing week-long manual testing procedures into automated continuous integration tasks
-        \item Prepared automated deployment scripts for the company's first product to migrate to Amazon Web Services
+        \item Proposed, designed and currently building the company's first AngularJS applicationn and successfully integrated Yeoman into the workflow
+        \item Developed an automated integration testing framework with Cucumber and Selenium, reducing week-long manual testing procedures into automated continuous integration tasks
+        \item Responsible for the maintenance of the company's 3 Rails applications
       \end{itemize}}
     \cventry{2008--2011}{Office Administrator}{Caunesa Pty Ltd}{Rosebery}{}{
       \begin{itemize}
         \item Planned and implemented office an automated backup scheme which continues to save each office staff up to 15 minutes per day
-        \item Negotiated discounts with suppliers, resulting in a reduction of the overall cost of business by almost 2\%
+        \item Negotiated discounts with suppliers, resulting in a reduction of the business' variable costs by 8\%
       \end{itemize}}
     \cventry{2008--2010}{Food Service Host}{QSR Pty Ltd (KFC)}{Bexley}{}{
     \begin{itemize}
@@ -58,6 +56,8 @@
     \cvlistitem{UNSW High School Computing Award 2006}
 
   \section{Relevant Skills}
-    \cvlistitem{Ruby (on Rails), Python, Shell, Java EE}
-    \cvlistitem{HTML, CSS, Javascript, SQL, NoSQL, UnixUtils}
+    \cvlistitem{Javascript, Ruby (on Rails), Python, Shell, Java}
+    \cvlistitem{HTML, CSS, SQL, NoSQL, UnixUtils}
+
+
 \end{document}
