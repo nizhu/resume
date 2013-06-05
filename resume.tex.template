@@ -22,16 +22,16 @@
 \extrainfo{\centering\includegraphics[height=9pt]{GitHub-Mark.eps}~\httplink{%github}}
 
 \begin{document}
-  \fancyfoot{}
   \makecvtitle
 
   \section{Experience}
     \cventry{2011--Present}{Graduate Software Engineer}{Sirca Ltd}{Sydney}{}{
       \begin{itemize}
-        \item Perform full stack web development, writing production code in more than 10 different languages
-        \item Proposed, designed and currently building the company's first AngularJS applicationn and successfully integrated Yeoman into the workflow
-        \item Developed an automated integration testing framework with Cucumber and Selenium, reducing week-long manual testing procedures into automated continuous integration tasks
-        \item Responsible for the maintenance of the company's 3 Rails applications
+        \item Proposed, designed and currently building the company's first AngularJS application on top of a Java REST backend; introduced Javascript tools such as Yeoman and Karma to other developers
+        \item Developed an automated regression testing framework with Selenium, reducing week-long manual testing procedures into continuous integration tasks
+        \item Investigated and advised stakeholders on suitable off-the-shelf user management and discussion portal software
+        \item Worked closely with the system architect on scripts to deploy and maintain the company's first application on Amazon Web Services
+        \item Optimised a MySQL query that reduced the runtime of an API endpoint from about 8 seconds to just under a second
       \end{itemize}}
     \cventry{2008--2011}{Office Administrator}{Caunesa Pty Ltd}{Rosebery}{}{
       \begin{itemize}
@@ -47,17 +47,16 @@
     \cventry{2008--2012}{BComm/BS}{University of New South Wales}{Sydney}{}{
       \begin{itemize}
         \item Major in Actuarial Studies and Computer Science
-        \item Credit average of 71.6
         \item Student exchange with the \textit{University of British Columbia}, Vancouver
       \end{itemize}}
 
-  \section{Awards}
-    \cvlistitem{ASI Computing Award 2007}
-    \cvlistitem{UNSW High School Computing Award 2006}
+  \section{Projects}
+    \cvlistitem{Work In Progress - multi-platform mobile productivity application with a twist; prototype completed with jQuery Mobile and PhoneGap}
+    \cvlistitem{\textbf{spreadd.it} - interface to reddit as a compact spreadsheet to maximise use of space and minimise scrolling; NodeJS with Express on Heroku}
 
   \section{Relevant Skills}
-    \cvlistitem{Javascript, Ruby (on Rails), Python, Shell, Java}
-    \cvlistitem{HTML, CSS, SQL, NoSQL, UnixUtils}
+    \cvlistitem{Javascript, Ruby, Python, Shell, Java}
+    \cvlistitem{HTML, CSS, SQL, NoSQL, Unix}
 
 
 \end{document}
