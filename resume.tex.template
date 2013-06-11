@@ -30,7 +30,6 @@
         \item Proposed, designed and currently building the company's first AngularJS application on top of a Java REST backend; introduced Javascript tools such as Yeoman and Karma to other developers
         \item Developed an automated regression testing framework with Selenium, reducing week-long manual testing procedures into continuous integration tasks
         \item Investigated and advised stakeholders on suitable off-the-shelf user management and discussion portal software
-        \item Worked closely with the system architect on scripts to deploy and maintain the company's first application on Amazon Web Services
         \item Optimised a MySQL query that reduced the runtime of an API endpoint from about 8 seconds to just under a second
       \end{itemize}}
     \cventry{2008--2011}{Office Administrator}{Caunesa Pty Ltd}{Rosebery}{}{
@@ -51,8 +50,9 @@
       \end{itemize}}
 
   \section{Projects}
-    \cvlistitem{Work In Progress - multi-platform mobile productivity application with a twist; prototype completed with jQuery Mobile and PhoneGap}
+    \cvlistitem{\textbf{Work In Progress} - multi-platform mobile productivity application with a twist; prototype completed with jQuery Mobile and PhoneGap}
     \cvlistitem{\textbf{spreadd.it} - interface to reddit as a compact spreadsheet to maximise use of space and minimise scrolling; NodeJS with Express on Heroku}
+    \cvlistitem{\textbf{hn-jobs} - interface to the monthly Who's Hiring thread on Hacker News with added filtering and sorting; AngularJS}
 
   \section{Relevant Skills}
     \cvlistitem{Javascript, Ruby, Python, Shell, Java}
