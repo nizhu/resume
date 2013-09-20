@@ -25,17 +25,17 @@
   \makecvtitle
 
   \section{Experience}
-    \cventry{2011--Present}{Graduate Software Engineer}{Sirca Ltd}{Sydney}{}{
+    \cventry{2011--Present}{Software Engineer}{Sirca Ltd}{Sydney}{}{
       \begin{itemize}
-        \item Proposed, designed and currently building the company's first AngularJS application on top of a Java REST backend; introduced Javascript tools such as Yeoman and Karma to other developers
-        \item Developed an automated regression testing framework with Selenium, reducing week-long manual testing procedures into continuous integration tasks
-        \item Investigated and advised stakeholders on suitable off-the-shelf user management and discussion portal software
+        \item Proposed, designed and developed the company's first production AngularJS application consuming a Java based REST API backend; introduced Javascript tools such as Yeoman and Karma into the company
+        \item Developed an internal automated testing library with Selenium, reducing week-long manual testing procedures into continuous integration tasks
+        \item Introduced second year students to Ruby, Rails and Twitter Bootstrap in a guest lecture at UNSW
         \item Optimised a MySQL query that reduced the runtime of an API endpoint from about 8 seconds to just under a second
+        \item Analysed the company's OCR usage patterns and requirements, and presented findings and solutions stakeholders with D3.js
       \end{itemize}}
     \cventry{2008--2011}{Office Administrator}{Caunesa Pty Ltd}{Rosebery}{}{
       \begin{itemize}
-        \item Planned and implemented office an automated backup scheme which continues to save each office staff up to 15 minutes per day
-        \item Negotiated discounts with suppliers, resulting in a reduction of the business' variable costs by 8\%
+        \item Negotiated discounts with suppliers, resulting in a reduction of the business' total variable costs by 8\%
       \end{itemize}}
     \cventry{2008--2010}{Food Service Host}{QSR Pty Ltd (KFC)}{Bexley}{}{
     \begin{itemize}
@@ -50,9 +50,8 @@
       \end{itemize}}
 
   \section{Projects}
-    \cvlistitem{\textbf{Work In Progress} - multi-platform mobile productivity application with a twist; prototype completed with jQuery Mobile and PhoneGap}
-    \cvlistitem{\textbf{spreadd.it} - interface to reddit as a compact spreadsheet to maximise use of space and minimise scrolling; NodeJS with Express on Heroku}
-    \cvlistitem{\textbf{hn-jobs} - interface to the monthly Who's Hiring thread on Hacker News with added filtering and sorting; AngularJS}
+    \cvlistitem{\textbf{spreadd.it} - interface to reddit as a compact spreadsheet to maximise use of space and minimise scrolling; NodeJS and jQuery on Heroku}
+    \cvlistitem{\textbf{hn-jobs} - interface to the monthly Who's Hiring thread on Hacker News with added filtering and sorting; AngularJS on GitHub Pages}
 
   \section{Relevant Skills}
     \cvlistitem{Javascript, Ruby, Python, Shell, Java}
